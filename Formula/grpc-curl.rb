@@ -1,5 +1,5 @@
 # This file was generated automatically by dotnet-releaser - DO NOT EDIT
-class Grpc_curl < Formula
+class GrpcCurl < Formula
   desc "grpc-curl is a command line tool for interacting with gRPC servers."
   homepage "https://github.com/xoofx/grpc-curl"
   version "1.3.4"
