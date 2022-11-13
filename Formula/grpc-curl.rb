@@ -2,12 +2,12 @@
 class GrpcCurl < Formula
   desc "grpc-curl is a command line tool for interacting with gRPC servers."
   homepage "https://github.com/xoofx/grpc-curl"
-  version "1.3.7"
+  version "1.4.0"
   license "BSD-2-Clause"
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/xoofx/grpc-curl/releases/download/1.3.7/grpc-curl.1.3.7.osx-x64.tar.gz"
-      sha256 "0a0073409002e76f56d75add951d36a74be3af6a12bb94683a5e1abc702a5f38"
+      url "https://github.com/xoofx/grpc-curl/releases/download/1.4.0/grpc-curl.1.4.0.osx-x64.tar.gz"
+      sha256 "07f7a6de44dc56175d42fe5ce3980604cbf4d333c63fa6f3daf775110d142bdb"
 
       def install
         cp_r '.', bin
@@ -15,8 +15,8 @@ class GrpcCurl < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/xoofx/grpc-curl/releases/download/1.3.7/grpc-curl.1.3.7.osx-arm64.tar.gz"
-      sha256 "f3cc6e80b5fcd50cf125b257bd00b5c4d75a275fcf008804f6ca7cd8b8a1f9e9"
+      url "https://github.com/xoofx/grpc-curl/releases/download/1.4.0/grpc-curl.1.4.0.osx-arm64.tar.gz"
+      sha256 "ffb05a1561086ba89af377b8af834d3618f1884c98f3c7b5247cf3d9e82708df"
 
       def install
         cp_r '.', bin
@@ -26,8 +26,8 @@ class GrpcCurl < Formula
   end
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/xoofx/grpc-curl/releases/download/1.3.7/grpc-curl.1.3.7.linux-x64.tar.gz"
-      sha256 "4babe841860cfe51355c0e1314ae0e5c01e1df31e70b43f29bc54ccdd4c812c9"
+      url "https://github.com/xoofx/grpc-curl/releases/download/1.4.0/grpc-curl.1.4.0.linux-x64.tar.gz"
+      sha256 "d469464311ccb89daa01ca8d85ed3c2ca0292cf15fa411132d79a041ec79be45"
 
       def install
         cp_r '.', bin
@@ -35,8 +35,8 @@ class GrpcCurl < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_32_bit?
-      url "https://github.com/xoofx/grpc-curl/releases/download/1.3.7/grpc-curl.1.3.7.linux-arm.tar.gz"
-      sha256 "0e3d4bc238734c65955ef4140131a31f4373ff736c8a19dd35c7efa5ac6696f2"
+      url "https://github.com/xoofx/grpc-curl/releases/download/1.4.0/grpc-curl.1.4.0.linux-arm.tar.gz"
+      sha256 "f36bacd0a3d09037f5476df42c2c24f488cefe9b3a79520a5c880d5d4053837f"
 
       def install
         cp_r '.', bin
@@ -44,8 +44,8 @@ class GrpcCurl < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/xoofx/grpc-curl/releases/download/1.3.7/grpc-curl.1.3.7.linux-arm64.tar.gz"
-      sha256 "0b1d1445e23e9ca5edcf799b5d1604840f52a2c7ec24d472b9c06d7be9e5186f"
+      url "https://github.com/xoofx/grpc-curl/releases/download/1.4.0/grpc-curl.1.4.0.linux-arm64.tar.gz"
+      sha256 "4d16aba6449daad0333fc5e26bd1244fa0d97c0724148d45f031f71f92b368b3"
 
       def install
         cp_r '.', bin
